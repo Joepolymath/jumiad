@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<!-- row -->
+    <div class="row">
+        <!-- first column -->
+        <div class="col-lg-4">
+            <img class="thumbnail" src="{% static 'images/placeholder.png' %}" alt="">
+            <div class="box-element product">
+                <h6><strong>Product</strong></h6>
+                <hr>
+                <button class="btn btn-outline-secondary add-btn">Add to Cart</button>
+                <a href="#" class="btn btn-outline-success">View</a>
+                <h4 style="display: inline-block; float: right;">$29.99</h4>
+            </div>
+        </div>
+
+        <!-- second column -->
+        <div class="col-lg-4">
+            <img class="thumbnail" src="{% static 'images/placeholder.png' %}" alt="">
+            <div class="box-element product">
+                <h6><strong>Product</strong></h6>
+                <hr>
+                <button class="btn btn-outline-secondary add-btn">Add to Cart</button>
+                <a href="#" class="btn btn-outline-success">View</a>
+                <h4 style="display: inline-block; float: right;">$29.99</h4>
+            </div>
+        </div>
+
+        <!-- third column -->
+        <div class="col-lg-4">
+            <img class="thumbnail" src="{% static 'images/placeholder.png' %}" alt="">
+            <div class="box-element product">
+                <h6><strong>Product</strong></h6>
+                <hr>
+                <button class="btn btn-outline-secondary add-btn">Add to Cart</button>
+                <a href="#" class="btn btn-outline-success">View</a>
+                <h4 style="display: inline-block; float: right;">$29.99</h4>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
